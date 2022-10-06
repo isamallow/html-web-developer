@@ -33,5 +33,11 @@
 * git init (iniciar repositório)
 * git add
 * git commit 
+* git status (untracked, staged, modified)
 
+## Resolvendo conflitos no GitHub
 
+* git push origin master
+* git pull origin master (puxar)
+* localiza o conflito, conserta e faz um commit
+* resolve conflitos manualmente
