@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font: 20px Arial, sans-serif;
+}
+
+.navbar {
+  background-color: #cccccc;
+}
+
+li > a {
+  text-transform: uppercase;
+}
+
+.quem-somos {
+  background: #808080;
+  color: #ffffff;
+}
+
+div > h3 {
+  text-transform: uppercase;
+  padding-top: 15px;
+}
+
+.margin {
+  padding-bottom: 50px;
+}
+
+.parceiros {
+  background-color: #ddd8d8;
+}
+
+.images {
+  height: 200px;
+}
+
+.bg-footer {
+  background-color: #cccccc;
+  color: #ffffff;
+}
