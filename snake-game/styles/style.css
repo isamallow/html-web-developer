@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 95vw;
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #1cbb98;
+}
+
+h1 {
+  text-transform: uppercase;
+  color: #201f1f;
+}
+
+.painel {
+  width: 480px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.painel .score {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.painel .score p {
+  margin-right: 10px;
+  margin-bottom: 0;
+}
+
+.painel button {
+  padding: 10px 20px;
+  background: #1cbb98;
+  color: #ffffff;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 5px;
+  transition: 0.2s;
+}
+
+.painel button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.painel .speed {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.painel .speed p {
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+

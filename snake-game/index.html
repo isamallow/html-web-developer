@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Snake Game</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <h1>Snake Game</h1>
+  <div class="painel">
+    <div class="score">
+      <p>Score:</p><span id="score"></span>
+    </div>
+    <div class="speed">
+      <p>Speed:</p>
+      <form>
+        <input type="radio" name="speed" id="1x" value="1" checked>
+        <label for="1x">1x</label>
+
+        <input type="radio" name="speed" id="2x" value="1.5">
+        <label for="2x">1.5x</label>
+
+        <input type="radio" name="speed" id="3x" value="2">
+        <label for="3x">2x</label>
+
+      </form>
+    </div>
+    <button onclick=restartGame()>Restart</button>
+  </div>
+
+  <canvas id="snake" width="512" height="512"></canvas>
+  
+  <script defer src="js/main.js"></script>
+</body>
+</html>
+
+
